@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/topjohnwu/magisk_files/841e978604f989d04549013cd4dcc7e34aea5288/stable.json

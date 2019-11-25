@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstallPlugin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Truy cập vào bộ nhớ trong -> apk_111965_src"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Cài đặt tất cả ứng dụng"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:text="https://raw.githubusercontent.com/topjohnwu/magisk_files/841e978604f989d04549013cd4dcc7e34aea5288/stable.json"/>
+        <Button
+            android:id="@+id/btnCopyURL"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy url"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Truy cập MagiskManager => Thiết lập => Tắt kiểm tra cập nhật => Kênh cập nhật => Tuỳ chỉnh => Dán đoạn mã trên vào"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_centerInParent="true"
+                android:id="@+id/btnFinalStep"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:text="Đã xong"
+                android:textSize="25dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
